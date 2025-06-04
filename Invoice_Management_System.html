@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Management System</title>
+    <style>
+        .btn.disabled {
+            background-color: #cccccc !important;
+            cursor: not-allowed;
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        :root {
+            --primary: #4a6fa5;
+            --secondary: #166088;
+            --accent: #4fc3f7;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --success: #28a745;
+            --warning: #ffc107;
+            --danger: #dc3545;
+            --inv-color: #4CAF50;
+            --srv-color: #2196F3;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #004987;
+            margin: 0;
+            padding: 20px;
+            color: var(--dark);
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        
+        h1 {
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .search-container input {
+            flex: 1;
+        }
+        
+        .filter-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 15px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .filter-btn.active {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        .export-import-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .file-access-container {
+            background: #e9f7fe;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--accent);
+        }
+        
+        .connection-status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+        .connected {
+            background-color: var(--success);
+        }
+        
+        .disconnected {
+            background-color: var(--danger);
+        }
+        
+        .excel-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.3s;
+            color: white;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary);
+        }
+        
+        .btn-danger {
+            background-color: var(--danger);
+        }
+        
+        .btn-danger:hover {
+            background-color: #de4050;
+        }
+        
+        .btn-success {
+            background-color: var(--success);
+        }
+        
+        .btn-warning {
+            background-color: var(--warning);
+            color: var(--dark);
+        }
+        
+        .btn-inv {
+            background-color: var(--inv-color);
+        }
+        
+        .btn-inv:hover:not(:disabled) {
+            background-color: #45a049;
+        }
+        
+        .btn-srv {
+            background-color: var(--srv-color);
+        }
+        
+        .btn-srv:hover:not(:disabled) {
+            background-color: #0b7dda;
+        }
+        
+        .btn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+        
+        .clear-search-btn, .clear-date-btn {
+            background-color: #c9cdd0;
+            color: white;
+        }
+        
+        .clear-search-btn:hover, .clear-date-btn:hover {
+            background-color: #5a6268;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--primary);
+            color: white;
+            font-weight: 500;
+        }
+        
+        tr:hover {
+            background-color: rgba(79, 195, 247, 0.1);
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .status-srv {
+            background-color: #e6ccff;
+            color: #4b0082;
+        }
+        
+        .status-report {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .status-review {
+            background-color: #e2e3e5;
+            color: #383d41;
+        }
+        
+        .status-pending {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .status-accounts {
+            background-color: #cce5ff;
+            color: #004085;
+        }
+        
+        .status-process {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        
+        .status-ipc {
+            background-color: #ffd8b1;
+            color: #805b36;
+        }
+        
+        .action-btns {
+            display: flex;
+            gap: 5px;
+        }
+        
+        .numeric {
+            text-align: right;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .data-source-info {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .storage-info {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #888;
+            font-style: italic;
+        }
+        
+        .file-location-cell {
+            max-width: 250px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .file-location-cell:hover {
+            overflow: visible;
+            white-space: normal;
+            background-color: white;
+            z-index: 100;
+            position: relative;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdn.sheetjs.com/xlsx-0.19.3/package/dist/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Invoice Management System</h1>
+        
+        <div class="file-access-container">
+            <button id="connectBtn" class="btn btn-primary" onclick="loadFromGitHub(true)">
+                <svg class="excel-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                Click Here to Refresh Data
+            </button>
+            
+            <div class="connection-status">
+                <span id="statusIndicator" class="status-indicator disconnected"></span>
+                <span id="connectionStatus">Not connected to data source</span>
+            </div>
+            
+            <div id="fileInfo" class="storage-info" style="text-align: left; margin-top: 10px;"></div>
+        </div>
+        
+        <div class="export-import-container">
+            <button class="btn btn-warning" onclick="exportToExcel()">Export to Excel</button>
+            <button class="btn btn-warning" onclick="exportToPDF()">Export to PDF</button>
+            <button class="btn btn-danger" onclick="clearLocalStorage()">Refresh Records</button>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" id="searchTerm" placeholder="Search by site, PO number, vendor, invoice or details...">
+            <button class="btn btn-primary" onclick="searchRecords()">Search</button>
+            <button class="btn clear-search-btn" onclick="clearSearch()">Clear Search</button>
+            <input type="text" id="releaseDateFilter" placeholder="Filter by Release Date" onfocus="(this.type='date')" onblur="(this.type='text')">
+            <button class="btn clear-date-btn" onclick="clearDate()">Clear Date</button>
+        </div>
+        
+        <div class="filter-container">
+            <div class="filter-btn active" onclick="filterRecords('all')">All</div>
+            <div class="filter-btn" onclick="filterRecords('For SRV')">For SRV</div>
+            <div class="filter-btn" onclick="filterRecords('Report')">Report</div>
+            <div class="filter-btn" onclick="filterRecords('Under Review')">Under Review</div>
+            <div class="filter-btn" onclick="filterRecords('Pending')">Pending</div>
+            <div class="filter-btn" onclick="filterRecords('With Accounts')">With Accounts</div>
+            <div class="filter-btn" onclick="filterRecords('CEO Approval')">CEO Approval</div>
+            <div class="filter-btn" onclick="filterRecords('For IPC')">For IPC</div>
+            <div class="filter-btn" onclick="filterRecords('No Invoice')">No Invoice</div>
+            <div class="filter-btn" onclick="filterRecords('Open')">Open</div>
+        </div>
+        
+        <table id="recordsTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Entered Date</th>
+                    <th>Site</th>
+                    <th>PO Number</th>
+                    <th>Vendor</th>
+                    <th>Invoice Number</th>
+                    <th>Value</th>
+                    <th>Release Date</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be populated by JavaScript -->
+            </tbody>
+        </table>
+        
+        <div class="data-source-info">
+            Data is loaded from and saved to <strong id="dataSource">Main</strong>
+        </div>
+        <div class="storage-info" id="storageInfo">
+            Currently using browser's cache for temporary storage
+        </div>
+    </div>
+
+    <script>
+        // Initialize records array and variables
+        let records = [];
+        let activeFilter = 'all';
+        let usingGitHub = false;
+        
+        // GitHub CSV URL with cache-busting parameter
+        const GITHUB_CSV_URL = "https://raw.githubusercontent.com/DC-database/Invoice/main/records.csv";
+        const PDF_BASE_PATH = "L:/Files/INVOICE/";
+        const SRV_BASE_PATH = "L:/Files/SRV/";
+        
+        // Update connection status
+        function updateConnectionStatus(connected, fileName = '') {
+            const indicator = document.getElementById('statusIndicator');
+            const statusText = document.getElementById('connectionStatus');
+            const fileInfo = document.getElementById('fileInfo');
+            
+            if (connected) {
+                indicator.className = 'status-indicator connected';
+                statusText.textContent = `Connected to: ${fileName}`;
+                fileInfo.innerHTML = `<strong>File Source:</strong> Main CSV<br>
+                                      <strong>Status:</strong> Active connection`;
+                document.getElementById('dataSource').textContent = 'Main';
+                usingGitHub = true;
+            } else {
+                indicator.className = 'status-indicator disconnected';
+                statusText.textContent = 'Not connected to data source';
+                fileInfo.innerHTML = `<strong>File Source:</strong> Main CSV<br>
+                                      <strong>Status:</strong> Not connected`;
+                document.getElementById('dataSource').textContent = 'browser cache';
+                usingGitHub = false;
+            }
+        }
+        
+        // Migrate status names for existing data
+        function migrateStatus(records) {
+            return records.map(record => {
+                if (record.status === 'Under Process') {
+                    record.status = 'CEO Approval';
+                }
+                return record;
+            });
+        }
+        
+        // Load data from GitHub CSV
+        async function loadFromGitHub(forceRefresh = false) {
+            try {
+                document.getElementById('connectBtn').disabled = true;
+                document.getElementById('connectBtn').innerHTML = `Loading from GitHub...`;
+                
+                let url = GITHUB_CSV_URL;
+                if (forceRefresh) {
+                    url += `?timestamp=${new Date().getTime()}`;
+                }
+                
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Failed to fetch CSV file');
+                
+                const csvData = await response.text();
+                
+                return new Promise((resolve, reject) => {
+                    Papa.parse(csvData, {
+                        header: true,
+                        skipEmptyLines: true,
+                        complete: function(results) {
+                            if (results.data.length === 0) {
+                                alert('No data found in the CSV file');
+                                records = [];
+                            } else {
+                                records = results.data.map(item => {
+                                    return {
+                                        entryDate: item['Entered Date'] || new Date().toISOString().split('T')[0],
+                                        site: item['Site'] || '',
+                                        poNumber: item['PO Number'] || '',
+                                        vendor: item['Vendor'] || '',
+                                        invoiceNumber: item['Invoice Number'] || '',
+                                        value: item['Value'] || '',
+                                        details: item['Details'] || '',
+                                        releaseDate: item['Release Date'] || '',
+                                        status: item['Status'] || 'For SRV',
+                                        fileName: item['FileName'] || '',
+                                        lastUpdated: new Date().toISOString()
+                                    };
+                                });
+                                
+                                records = migrateStatus(records);
+                            }
+                            
+                            localStorage.setItem('recordsData', JSON.stringify(records));
+                            localStorage.setItem('lastGitHubFetch', new Date().toISOString());
+                            refreshTable();
+                            updateConnectionStatus(true, 'Main CSV');
+                            
+                            document.getElementById('connectBtn').disabled = false;
+                            document.getElementById('connectBtn').innerHTML = `
+                                <svg class="excel-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                                Data Updated
+                            `;
+                            resolve();
+                        },
+                        error: function(error) {
+                            console.error('Error parsing CSV:', error);
+                            reject(error);
+                        }
+                    });
+                });
+            } catch (error) {
+                console.error('Error loading from GitHub:', error);
+                reject(error);
+            }
+        }
+        
+        // Load data from localStorage
+        function loadFromLocalStorage() {
+            const savedData = localStorage.getItem('recordsData');
+            if (savedData) {
+                try {
+                    records = JSON.parse(savedData);
+                    records = migrateStatus(records);
+                    refreshTable();
+                    document.getElementById('storageInfo').textContent = "Currently using browser's cache";
+                } catch (e) {
+                    console.error('Error parsing localStorage data:', e);
+                    records = [];
+                }
+            } else {
+                records = [];
+            }
+        }
+        
+        // Save data to localStorage
+        function saveData() {
+            localStorage.setItem('recordsData', JSON.stringify(records));
+        }
+        
+        // Clear local storage and reload data
+        function clearLocalStorage() {
+            if (confirm('Are you sure you want to clear all locally cached data? This cannot be undone.')) {
+                localStorage.removeItem('recordsData');
+                localStorage.removeItem('lastGitHubFetch');
+                
+                loadFromGitHub(true).then(() => {
+                    // Success - no need to reload
+                }).catch(() => {
+                    location.reload(true);
+                });
+            }
+        }
+        
+        // Refresh the table with records
+        function refreshTable(filteredRecords = null) {
+            const tableBody = document.querySelector('#recordsTable tbody');
+            tableBody.innerHTML = '';
+            
+            const displayRecords = filteredRecords || records;
+            
+            if (displayRecords.length === 0) {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td colspan="12" style="text-align: center;">No records found</td>`;
+                tableBody.appendChild(row);
+                return;
+            }
+            
+            displayRecords.forEach((record, index) => {
+                const row = document.createElement('tr');
+                const enteredDate = formatDate(record.entryDate);
+                const releaseDate = record.releaseDate ? formatDate(record.releaseDate) : '-';
+                const statusClass = getStatusClass(record.status);
+                const formattedValue = record.value ? formatNumber(record.value) : '-';
+                const filePath = record.fileName ? `${PDF_BASE_PATH}${record.fileName}` : '';
+                const srvPath = record.details ? `${SRV_BASE_PATH}${record.details}` : '';
+                
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>${enteredDate}</td>
+                    <td>${record.site || '-'}</td>
+                    <td>${record.poNumber || '-'}</td>
+                    <td>${record.vendor || '-'}</td>
+                    <td>${record.invoiceNumber || '-'}</td>
+                    <td class="numeric">${formattedValue}</td>
+                    <td>${releaseDate}</td>
+                    <td><span class="status-badge ${statusClass}">${record.status}</span></td>
+                    <td class="action-btns">
+                        <button class="btn btn-inv ${!record.fileName ? 'disabled' : ''}" onclick="viewPDF('${filePath}')" ${!record.fileName ? 'disabled' : ''}>View INV</button>
+                        <button class="btn btn-srv ${!record.details ? 'disabled' : ''}" onclick="viewSRV('${srvPath}')" ${!record.details ? 'disabled' : ''}>View SRV</button>
+                    </td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+        
+        // View PDF file
+        function viewPDF(filepath) {
+            if (!filepath) {
+                alert('No PDF file associated with this record');
+                return;
+            }
+            window.open(filepath);
+        }
+        
+        // View SRV file
+        function viewSRV(filepath) {
+            if (!filepath) {
+                alert('No SRV file associated with this record');
+                return;
+            }
+            window.open(filepath);
+        }
+        
+        // Format date for display
+        function formatDate(dateString) {
+            if (!dateString) return '-';
+            const options = { year: 'numeric', month: 'short', day: 'numeric' };
+            return new Date(dateString).toLocaleDateString(undefined, options);
+        }
+        
+        // Format number with commas
+        function formatNumber(value) {
+            return parseFloat(value).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+        
+        // Get CSS class for status badge
+        function getStatusClass(status) {
+            switch(status) {
+                case 'For SRV': return 'status-srv';
+                case 'Report': return 'status-report';
+                case 'Under Review': return 'status-review';
+                case 'Pending': return 'status-pending';
+                case 'With Accounts': return 'status-accounts';
+                case 'CEO Approval': return 'status-process';
+                case 'For IPC': return 'status-ipc';
+                case 'NO Invoice': return 'status-Invoice';
+                case 'Open': return 'status-Open';
+                default: return '';
+            }
+        }
+        
+        // Search records based on term and filters
+        function searchRecords() {
+            const term = document.getElementById('searchTerm').value.toLowerCase();
+            const releaseDate = document.getElementById('releaseDateFilter').value;
+            let filtered = records;
+
+            if (term) {
+                filtered = filtered.filter(record =>
+                    (record.site && record.site.toLowerCase().includes(term)) ||
+                    (record.poNumber && record.poNumber.toLowerCase().includes(term)) ||
+                    (record.vendor && record.vendor.toLowerCase().includes(term)) ||
+                    (record.invoiceNumber && record.invoiceNumber.toLowerCase().includes(term)) ||
+                    (record.details && record.details.toLowerCase().includes(term)) ||
+                    (record.fileName && record.fileName.toLowerCase().includes(term))
+                );
+            }
+
+            if (activeFilter !== 'all') {
+                filtered = filtered.filter(record => record.status === activeFilter);
+            }
+
+            if (releaseDate) {
+                const inputDate = new Date(releaseDate);
+                const formattedInput = inputDate.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'short',
+                    day: 'numeric'
+                });
+
+                filtered = filtered.filter(record =>
+                    record.releaseDate && new Date(record.releaseDate).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                    }) === formattedInput
+                );
+            }
+
+            refreshTable(filtered);
+        }
+        
+        // Filter records by status
+        function filterRecords(status) {
+            activeFilter = status;
+
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent === (status === 'all' ? 'All' : status)) {
+                    btn.classList.add('active');
+                }
+            });
+
+            searchRecords();
+        }
+        
+        // Clear all search and filters
+        function clearSearch() {
+            document.getElementById('searchTerm').value = '';
+            document.getElementById('releaseDateFilter').value = '';
+            activeFilter = 'all';
+            
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent === 'All') {
+                    btn.classList.add('active');
+                }
+            });
+            
+            refreshTable(records);
+        }
+        
+        // Clear just the date filter
+        function clearDate() {
+            document.getElementById('releaseDateFilter').value = '';
+            searchRecords();
+        }
+        
+        // Export data to Excel
+        function exportToExcel() {
+            const tableRows = document.querySelectorAll('#recordsTable tbody tr');
+            const exportData = [];
+            let total = 0;
+
+            tableRows.forEach(row => {
+                const cells = row.querySelectorAll('td');
+                if (cells.length >= 10) {
+                    const value = parseFloat(cells[6].textContent.replace(/,/g, '')) || 0;
+                    total += value;
+
+                    exportData.push({
+                        'ID': cells[0].textContent.trim(),
+                        'Entered Date': cells[1].textContent.trim(),
+                        'Site': cells[2].textContent.trim(),
+                        'PO Number': cells[3].textContent.trim(),
+                        'Vendor': cells[4].textContent.trim(),
+                        'Invoice Number': cells[5].textContent.trim(),
+                        'Value': value.toFixed(2),
+                        'Release Date': cells[7].textContent.trim(),
+                        'Status': cells[8].textContent.trim()
+                    });
+                }
+            });
+
+            exportData.push({ 'Invoice Number': 'TOTAL', 'Value': total.toFixed(2) });
+
+            const ws = XLSX.utils.json_to_sheet(exportData);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, "FilteredRecords");
+            XLSX.writeFile(wb, "filtered_records.xlsx");
+        }
+        
+        // Export data to PDF
+        function exportToPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            const tableRows = document.querySelectorAll('#recordsTable tbody tr');
+            const data = [];
+            let total = 0;
+
+            tableRows.forEach((row, index) => {
+                const cells = row.querySelectorAll('td');
+                if (cells.length >= 10) {
+                    const value = parseFloat(cells[6].textContent.replace(/,/g, '')) || 0;
+                    total += value;
+
+                    data.push([
+                        index + 1,
+                        cells[1].textContent.trim(),
+                        cells[2].textContent.trim(),
+                        cells[3].textContent.trim(),
+                        cells[4].textContent.trim(),
+                        cells[5].textContent.trim(),
+                        formatNumber(value),
+                        cells[8].textContent.trim()
+                    ]);
+                }
+            });
+
+            data.push(['', '', '', '', '', 'TOTAL', formatNumber(total), '']);
+
+            doc.autoTable({
+                head: [['ID', 'Entered Date', 'Site', 'PO Number', 'Vendor', 'Invoice', 'Value', 'Status']],
+                body: data,
+                startY: 20
+            });
+
+            doc.save("filtered_records.pdf");
+        }
+        
+        // Initialize on page load
+        window.onload = function() {
+            updateConnectionStatus(false);
+            
+            // Add event listener for Enter key in search box
+            document.getElementById('searchTerm').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    searchRecords();
+                }
+            });
+            
+            // Check for cached data
+            const lastFetch = localStorage.getItem('lastGitHubFetch');
+            if (lastFetch) {
+                const lastFetchDate = new Date(lastFetch);
+                const now = new Date();
+                const hoursSinceLastFetch = (now - lastFetchDate) / (1000 * 60 * 60);
+                
+                if (hoursSinceLastFetch > 1) {
+                    loadFromGitHub();
+                } else {
+                    loadFromLocalStorage();
+                }
+            } else {
+                loadFromGitHub();
+            }
+        };
+    </script>
+</body>
+</html>
