@@ -11,9 +11,9 @@ Entered Date,Site,PO Number,Vendor,Invoice Number,Value,Details,Release Date,Sta
 12-Jun-24,166,50701,Lamha Trading Co.,IN1102222,1725,20250215 PO.50701 Site.166 ID.11600 Sn.10598.pdf,15-Feb-25,With Accounts,S166-PO.50701-11600-Lamha Trading Co.-10598.pdf,06-03-25
 01-Oct-24,166,50920,Gulf Lights Electr. ,INV.No.0000047232,5460,20250303 PO.50920 Site.166 ID.10123 Sn.10830.pdf,03-Mar-25,With Accounts,S166-PO.50920-10123-Gulf Lights Electr. -10830.pdf,06-03-25
 17-Sep-24,174,51320,Qatar Pest Control C,51320.Inv214596,1900,20250212 PO.51320 Site.174 ID.30225 Sn.11321.pdf,12-Feb-25,With Accounts,S174-PO.51320-30225-Qatar Pest Control C-11321.pdf,06-03-25
-,M161,51391,Capital Trading Est.,,2093.26,,,No Invoice,SM161-PO.51391-10196-Capital Trading Est.-11441.pdf,06-03-25
+,M161,51391,Capital Trading Est.,,2093.26,,,No Invoice,,06-03-25
 11-Aug-24,174,52008,Marine Trading & Con,52008.MTCPI1062024,9250,20250215 PO.52008 Site.174 ID.10131 Sn.12096.pdf,15-Feb-25,With Accounts,S174-PO.52008-10131-Marine Trading & Con-12096.pdf,06-03-25
-,M161,51391.2,Capital Trading Est.,,3051.62,,,No Invoice,SM161-PO.51391-10196-Capital Trading Est.-12540.pdf,06-03-25
+,M161,51391.2,Capital Trading Est.,,3051.62,,,No Invoice,,06-03-25
 10-Sep-24,M34,52524,Hempel Paints,52524.Inv1246269,609.3,20241012 PO.52524 Site.M34 ID.10126 Sn.12634.pdf,12-Oct-24,With Accounts,SM34-PO.52524-10126-Hempel Paints-12634.pdf,06-03-25
 10-Sep-24,144,52525,Hempel Paints,52525.Inv1246270,585,20241012 PO.52525 Site.144 ID.10126 Sn.12635.pdf,12-Oct-24,With Accounts,S144-PO.52525-10126-Hempel Paints-12635.pdf,06-03-25
 02-Oct-24,137.19,52523,Hempel Paints,52523.Inv1246126,1460.7,20241012 PO.52523 Site.137.19 ID.10126 Sn.13052.pdf,12-Oct-24,With Accounts,S137.19-PO.52523-10126-Hempel Paints-13052.pdf,06-03-25
@@ -84,7 +84,7 @@ Entered Date,Site,PO Number,Vendor,Invoice Number,Value,Details,Release Date,Sta
 07-Jan-25,169,55168,Nay Trading Co. W.L.,17567-169,430,20250212 PO.55168 Site.169 ID.11732 Sn.15044.pdf,12-Feb-25,With Accounts,S169-PO.55168-11732-Nay Trading Co. W.L.-15044.pdf,06-03-25
 04-Jan-25,173,55166,Nay Trading Co. W.L.,17563-173,1577.5,20250212 PO.55166 Site.173 ID.11732 Sn.15045.pdf,12-Feb-25,With Accounts,S173-PO.55166-11732-Nay Trading Co. W.L.-15045.pdf,06-03-25
 04-Jan-25,166,55167,Nay Trading Co. W.L.,17565-166,395,20250212 PO.55167 Site.166 ID.11732 Sn.15046.pdf,12-Feb-25,With Accounts,S166-PO.55167-11732-Nay Trading Co. W.L.-15046.pdf,06-03-25
-,176,53901,Bitumode Qatar Water,,17900,,,No Invoice,S176-PO.53901-11782-Bitumode Qatar Water-15047.pdf,06-03-25
+,176,53901,Bitumode Qatar Water,,17900,,,No Invoice,,06-03-25
 07-Jan-25,176,54800,"Simsima Tiles, Block",54800,1310,20250120 PO.54800 Site.176 ID.11505 Sn.15048.pdf,20-Jan-25,With Accounts,"S176-PO.54800-11505-Simsima Tiles, Block-15048.pdf",06-03-25
 04-Jan-25,169,55119,Nay Trading Co. W.L.,17575,1509.5,20250212 PO.55119 Site.169 ID.11732 Sn.15049.pdf,12-Feb-25,With Accounts,S169-PO.55119-11732-Nay Trading Co. W.L.-15049.pdf,06-03-25
 04-Jan-25,169,55014,Nay Trading Co. W.L.,17482,2157.5,20250212 PO.55014 Site.169 ID.11732 Sn.15050.pdf,12-Feb-25,With Accounts,S169-PO.55014-11732-Nay Trading Co. W.L.-15050.pdf,06-03-25
