@@ -2717,7 +2717,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 05-May-25,100,57645,880,Cash,57645.100,880,20250507-PETTY-CASH.pdf,03-Jun-25,With Accounts,S100-PO.57645-Nosher-Cash-17606.pdf,6/22/2025
 04-May-25,173,57476,1400,Cash,57476.173,1400,20250507 PO.57476 Site.173 ID.19999 Sn.17607.pdf,03-Jun-25,With Accounts,S173-PO.57476-19999-Cash-17607.pdf,6/22/2025
 04-May-25,176,56853,3000,Phoenix Contracting ,PH100-CI-7963-030525,3000,20250514 PO.56853 Site.176 ID.30374 Sn.17608.pdf,03-Jun-25,With Accounts,S176-PO.56853-30374-Phoenix Contracting -17608.pdf,6/22/2025
-04-May-25,1009,56908,1500,Phoenix Contracting ,,1500,,03-Jun-25,For SRV,S1009-PO.56908-30374-Phoenix Contracting -17609.pdf,6/22/2025
+04-May-25,1009,56908,1500,Phoenix Contracting ,,1500,,22-Jun-25,Under Review,S1009-PO.56908-30374-Phoenix Contracting -17609.pdf,6/22/2025
 04-May-25,M28,57525,14400,Laffan Trading and C,Inv-25-0802,14400.01,20250521 PO.57525 Site.M28 ID.11455 Sn.17610.pdf,03-Jun-25,With Accounts,SM28-PO.57525-11455-Laffan Trading and C-17610.pdf,6/22/2025
 04-May-25,1061,57582,1210,PALM Shading Systems,INV-IBA-061,1210,20250511 PO.57582 Site.1061 ID.30188 Sn.17611.pdf,03-Jun-25,With Accounts,S1061-PO.57582-30188-PALM Shading Systems-17611.pdf,6/22/2025
 04-May-25,175,57550,1650,Don Construction Pro,INSCR-25202418,1650,20250614-10245-Don Construction Pro.pdf,14-Jun-25,With Accounts,S175-PO.57550-10245-Don Construction Pro-17612.pdf,6/22/2025
@@ -3085,7 +3085,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 21-May-25,166,52197,99750,Ismail Bin Ali Furni,52197.Inv-095,24937.5,20250531 PO.52197 Site.166 ID.30172 Sn.17991.pdf,03-Jun-25,With Accounts,S166-PO.52197-30172-Ismail Bin Ali Furni-17991.pdf,6/22/2025
 21-May-25,122,57043,32640,Ismail Bin Ali Furni,57043.Inv-103,32640,20250531 PO.57043 Site.122 ID.30172 Sn.17992.pdf,03-Jun-25,With Accounts,S122-PO.57043-30172-Ismail Bin Ali Furni-17992.pdf,6/22/2025
 21-May-25,123,58105,2699,Alrais Trading Est.,PI-MO048/25,2699,20250522 PO.58105 Site.123 ID.11695 Sn.17993.pdf,03-Jun-25,With Accounts,S123-PO.58105-11695-Alrais Trading Est.-17993.pdf,6/22/2025
-21-May-25,100,57922,2850,MK Information Syste,,2850,,03-Jun-25,For SRV,,6/22/2025
+21-May-25,100,57922,2850,MK Information Syste,,2850,,03-Jun-25,Under Review,S100-PO.57922-11739-MK Information Syste-17994.pdf,6/22/2025
 21-May-25,176,53779.18,606193,Fahad Bin Abdulla Bl,01980 -5-10 May 2025,69209,20250617 PO.53779 Site.176 ID.11320 Sn.17995.pdf,17-Jun-25,With Accounts,S176-PO.53779-11320-Fahad Bin Abdulla Bl-17995.pdf,6/22/2025
 21-May-25,175,53063.13,294015,Fahad Bin Abdulla Re,53063.02057,78610,20250531 PO.53063 Site.175 ID.11772 Sn.17996.pdf,03-Jun-25,With Accounts,S175-PO.53063-11772-Fahad Bin Abdulla Re-17996.pdf,6/22/2025
 17-May-25,176,58048,1700,Cash,58048.176,1700,20250521 PO.58048 Site.176 ID.19999 Sn.17997.pdf,03-Jun-25,With Accounts,S176-PO.58048-19999-Cash-17997.pdf,6/22/2025
@@ -3231,7 +3231,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 ,122,57042.2,242000,Smart Elevators & Es,,103245.36,,03-Jun-25,Under Review,,6/22/2025
 01-Jun-25,122,58151,150000,Al Hazem Stainless S,,130000,,03-Jun-25,Under Review,,6/22/2025
 01-Jun-25,176,58275,54613.01,Deemah Finishing & T,,54613.01,,03-Jun-25,Under Review,,6/22/2025
-02-Jun-25,175,57585.2,25000,FTC Qatar,,13500,,17-Jun-25,Under Review,S175-PO.57585-11496-FTC Qatar-18145.pdf,6/22/2025
+02-Jun-25,175,57585.2,52000,FTC Qatar,,13500,,22-Jun-25,CEO Approval,S175-PO.57585-11496-FTC Qatar-18145.pdf,6/22/2025
 01-Jun-25,175,58263,57325,AL-SHAIBEH ESTABLISH,,17197.5,20250614 PO.58263 Site.175 ID.11824 Sn.18146.pdf,14-Jun-25,With Accounts,S175-PO.58263-11824-AL-SHAIBEH ESTABLISH-18146.pdf,6/22/2025
 01-Jun-25,173,55085.7,93225,Aamal Cement Industr,,2910.6,,10-Jun-25,Under Review,S173-PO.55085-11318-Aamal Cement Industr-18147.pdf,6/22/2025
 01-Jun-25,173,55220.5,488854.83,Doka Qatar W.L.L,,7554.22,,17-Jun-25,Under Review,S173-PO.55220-11447-Doka Qatar W.L.L-18148.pdf,6/22/2025
@@ -3243,7 +3243,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 01-Jun-25,169,58091,2399,Lamha Trading Co.,,2399,,04-Jun-25,Under Review,S169-PO.58091-11600-Lamha Trading Co.-18154.pdf,6/22/2025
 ,M163,57790,50074,Al Bastha Trading & ,no scan - advance,20029,20250602 PO.57790 Site.M163 ID.30568 Sn.18155.pdf,03-Jun-25,With Accounts,,6/22/2025
 01-Jun-25,122,57040,17992,Qatar Factory For Fi,,17992,20250612 PO.57040 Site.122 ID.11482 Sn.18156.pdf,12-Jun-25,With Accounts,S122-PO.57040-11482-Qatar Factory For Fi-18156.pdf,6/22/2025
-01-Jun-25,173,52834.4,61000,Acrow Formwork Techn,,3000,,17-Jun-25,Under Review,S173-PO.52834-30990-Acrow Formwork Techn-18157.pdf,6/22/2025
+01-Jun-25,173,52834.4,63000,Acrow Formwork Techn,,3000,,17-Jun-25,Under Review,S173-PO.52834-30990-Acrow Formwork Techn-18157.pdf,6/22/2025
 01-Jun-25,1061,52015.8,198000,Hamad Bin Khalid Eng,,16500,,17-Jun-25,Under Review,S1061-PO.52015-30531-Hamad Bin Khalid Eng-18158.pdf,6/22/2025
 01-Jun-25,173,57178.3,526000,AL WATANIA STEEL QAT,,3629,,17-Jun-25,Under Review,S173-PO.57178-10255-AL WATANIA STEEL QAT-18159.pdf,6/22/2025
 02-Jun-25,175,58156,1060,Awazel International,,1060,20250611 PO.58156 Site.175 ID.11500 Sn.18160.pdf,11-Jun-25,With Accounts,S175-PO.58156-11500-Awazel International-18160.pdf,6/22/2025
@@ -3302,7 +3302,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 03-Jun-25,175,58162,8865,Computer Mart Tradin,58162.CMTI-1217,8865,20250614-11777-Computer Mart Tradin.pdf,14-Jun-25,With Accounts,S175-PO.58162-11777-Computer Mart Tradin-18215.pdf,6/22/2025
 03-Jun-25,100,58161,1000,Safeguard Trading & ,,1000,,04-Jun-25,Under Review,S100-PO.58161-30291-Safeguard Trading & -18216.pdf,6/22/2025
 03-Jun-25,175,58266,1332,Hempel Paints,INV.11013403,1332,20250614-10126-Hempel Paints.pdf,14-Jun-25,With Accounts,S175-PO.58266-10126-Hempel Paints-18217.pdf,6/22/2025
-03-Jun-25,123,55923.5,2800,Boom Treatment Compa,,700,,17-Jun-25,Under Review,S123-PO.55923-11218-Boom Treatment Compa-18218.pdf,6/22/2025
+03-Jun-25,123,55923.5,3500,Boom Treatment Compa,,700,,17-Jun-25,Under Review,S123-PO.55923-11218-Boom Treatment Compa-18218.pdf,6/22/2025
 03-Jun-25,169,57020.13,25889.1,Central Ventilation ,INV-SI-251508,1500.03,20250618-30508-Central Ventilation .pdf,18-Jun-25,With Accounts,S169-PO.57020-30508-Central Ventilation -18219.pdf,6/22/2025
 03-Jun-25,100,56252.5,21369.34,Ooredoo Q.S.C,Bill for May,5482.17,20250609-11298-Ooredoo Q.S.C.pdf,09-Jun-25,With Accounts,S100-PO.56252-11298-Ooredoo Q.S.C-18220.pdf,6/22/2025
 03-Jun-25,123,56253.5,228,Ooredoo Q.S.C,Bill for May,54,20250609-11298-Ooredoo Q.S.C.pdf,09-Jun-25,With Accounts,S123-PO.56253-11298-Ooredoo Q.S.C-18221.pdf,6/22/2025
@@ -3394,7 +3394,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 31-May-25,169,58246.2,4410,National Paints Fact,INV-474503,1330,20250614-11552-National Paints Fact.pdf,14-Jun-25,With Accounts,S169-PO.58246-11552-National Paints Fact-18307.pdf,6/22/2025
 31-May-25,175,57800.2,306,Qatar National Plast,,46,,04-Jun-25,Under Review,S175-PO.57800-11300-Qatar National Plast-18308.pdf,6/22/2025
 03-Jun-25,1061,57678,32070,Awzan for Treading &,57678.Inv/01,14400,20250617 PO.57678 Site.1061 ID.31021 Sn.18309.pdf,17-Jun-25,With Accounts,S1061-PO.57678-31021-Awzan for Treading &-18309.pdf,6/22/2025
-10-Jun-25,173,58252,4425,Diamond Professional,,4425,,10-Jun-25,FOR SRV,S173-PO.58252-11619-Diamond Professional-18310.pdf,6/22/2025
+10-Jun-25,173,58252,4425,Diamond Professional,,4425,,10-Jun-25,Under Review,S173-PO.58252-11619-Diamond Professional-18310.pdf,6/22/2025
 10-Jun-25,169,58241,520,Diamond Professional,,520,,12-Jun-25,Under Review,S169-PO.58241-11619-Diamond Professional-18311.pdf,6/22/2025
 10-Jun-25,175,58243,235,Madar Building Mater,INC-287441,235,20250615 PO.58243 Site.175 ID.10209 Sn.18312.pdf,15-Jun-25,With Accounts,S175-PO.58243-10209-Madar Building Mater-18312.pdf,6/22/2025
 10-Jun-25,M32,58487,3000,ARTEC WATER TECHNOLO,,3000,,10-Jun-25,Under Review,SM32-PO.58487-31028-ARTEC WATER TECHNOLO-18313.pdf,6/22/2025
@@ -3438,7 +3438,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 12-Jun-25,175,53063.14,294015,Fahad Bin Abdulla Re,,9065,,15-Jun-25,FOR SRV,S175-PO.53063-11772-Fahad Bin Abdulla Re-18353.pdf,6/22/2025
 12-Jun-25,175,58549,6118.75,Leminar Air Conditio,MCCGIBABVAV2025064,6118.75,20250617 PO.58549 Site.175 ID.11828 Sn.18354.pdf,17-Jun-25,With Accounts,S175-PO.58549-11828-Leminar Air Conditio-18354.pdf,6/22/2025
 12-Jun-25,173,56884.9,90104,Siporex Block Factor,,6493,,15-Jun-25,FOR SRV,S173-PO.56884-17775-Siporex Block Factor-18355.pdf,6/22/2025
-12-Jun-25,M28,56948.3,134527.8,Evergreen Signage an,,49831.89,,17-Jun-25,Under Review,SM28-PO.56948-30449-Evergreen Signage an-18356.pdf,6/22/2025
+12-Jun-25,M28,56948.3,98734,Evergreen Signage an,,49831.89,,17-Jun-25,Under Review,SM28-PO.56948-30449-Evergreen Signage an-18356.pdf,6/22/2025
 12-Jun-25,175,57814,2100,"Simsima Tiles, Block",,1050,,19-Jun-25,Under Review,"S175-PO.57814-11505-Simsima Tiles, Block-18357.pdf",6/22/2025
 12-Jun-25,175,58196,4200,"Simsima Tiles, Block",,2100,,19-Jun-25,Under Review,"S175-PO.58196-11505-Simsima Tiles, Block-18358.pdf",6/22/2025
 11-Jun-25,175,58447,330,SunTech Trading Co. ,,330,,19-Jun-25,Under Review,S175-PO.58447-11304-SunTech Trading Co. -18359.pdf,6/22/2025
@@ -3479,7 +3479,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 17-Jun-25,169,58554,250,Weltech Vision Tradi,,250,,19-Jun-25,Under Review,S169-PO.58554-11525-Weltech Vision Tradi-18394.pdf,6/22/2025
 17-Jun-25,169,54338.6,29150.01,Central Ventilation ,,795.65,,17-Jun-25,For SRV,S169-PO.54338-30508-Central Ventilation -18395.pdf,6/22/2025
 17-Jun-25,175,57606.8,78556.45,Central Ventilation ,,413.21,,19-Jun-25,Under Review,S175-PO.57606-30508-Central Ventilation -18396.pdf,6/22/2025
-17-Jun-25,175,58276,30000,Cantech Your Technol,,15000,,17-Jun-25,Under Review,S175-PO.58276-31026-Cantech Your Technol-18397.pdf,6/22/2025
+17-Jun-25,175,58276,30000,Cantech Your Technol,,15000,,22-Jun-25,CEO Approval,S175-PO.58276-31026-Cantech Your Technol-18397.pdf,6/22/2025
 17-Jun-25,M28,57746,450,Almuftah Polymer W.L,,450,,17-Jun-25,Under Review,SM28-PO.57746-10225-Almuftah Polymer W.L-18398.pdf,6/22/2025
 17-Jun-25,169,56802,22000,Top Makers Joinery T,,13693,,17-Jun-25,Report,S169-PO.56802-31018-Top Makers Joinery T-18399.pdf,6/22/2025
 17-Jun-25,176,53899.7,18505,BIN ARBAID TRANSPORT,,2265,,17-Jun-25,For SRV,S176-PO.53899-11786-BIN ARBAID TRANSPORT-18400.pdf,6/22/2025
@@ -3491,8 +3491,8 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 17-Jun-25,176,53872.6,31250,AL LIRA ALZAHABIA TR,,6750,,17-Jun-25,For SRV,S176-PO.53872-30533-AL LIRA ALZAHABIA TR-18406.pdf,6/22/2025
 17-Jun-25,166,57753.2,10000,Group 5F for Middle ,,5000,,17-Jun-25,Report,S166-PO.57753-11817-Group 5F for Middle -18407.pdf,6/22/2025
 17-Jun-25,137.19,51913,2500,Dewchem Trading & Co,,2500,,17-Jun-25,Under Review,S137.19-PO.51913-11748-Dewchem Trading & Co-18408.pdf,6/22/2025
-17-Jun-25,176,58521,760,United Cooperation G,,760,,17-Jun-25,For SRV,S176-PO.58521-39123-United Cooperation G-18409.pdf,6/22/2025
-17-Jun-25,173,58518,2260,United Cooperation G,,2260,,17-Jun-25,For SRV,S173-PO.58518-39123-United Cooperation G-18410.pdf,6/22/2025
+17-Jun-25,176,58521,760,United Cooperation G,,760,,17-Jun-25,Under Review,S176-PO.58521-39123-United Cooperation G-18409.pdf,6/22/2025
+17-Jun-25,173,58518,2260,United Cooperation G,,2260,,17-Jun-25,Under Review,S173-PO.58518-39123-United Cooperation G-18410.pdf,6/22/2025
 17-Jun-25,175,58063,13300,Doha Petroleum Const,,700,,19-Jun-25,Under Review,S175-PO.58063-11475-Doha Petroleum Const-18411.pdf,6/22/2025
 17-Jun-25,1061,52501.5,8312,Professional Pools,,950,,17-Jun-25,Under Review,S1061-PO.52501-30481-Professional Pools-18412.pdf,6/22/2025
 17-Jun-25,166,56377.3,4000,Professional Pools,,2000,,17-Jun-25,For SRV,S166-PO.56377-30481-Professional Pools-18413.pdf,6/22/2025
@@ -3584,3 +3584,6 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 22-Jun-25,166,44077.6,339481,Ismail Bin Ali Furni,,14636.55,,22-Jun-25,Report,S166-PO.44077-30172-Ismail Bin Ali Furni-18499.pdf,6/22/2025
 22-Jun-25,167,41090.7,403698.09,Concrete Stone Tradi,,-,,22-Jun-25,Report,S167-PO.41090-30389-Concrete Stone Tradi-18500.pdf,6/22/2025
 22-Jun-25,M28,56310,,Marine Trading & Con,,12200,,22-Jun-25,For SRV,SM28-PO.56310-10131-Marine Trading & Con-18501.pdf,6/22/2025
+15-Jun-25,173,58187,5780,ABCO AM Equipment Tr,,5780,,17-Jun-25,Under Review,,6/22/2025
+15-Jun-25,100,58603,460,Computer Mart Tradin,,460,,17-Jun-25,Under Review,,6/22/2025
+15-Jun-25,175,58693,660,Almoayyed Commercial,,660,,17-Jun-25,Under Review,,6/22/2025
