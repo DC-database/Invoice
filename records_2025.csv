@@ -2955,7 +2955,6 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 14-May-25,M21,46948,3700,Abdul Hamid Abdul Ra,Inv-16246,3700,20250514 PO.46948 Site.M21 ID.30215 Sn.17847.pdf,03-Jun-25,With Accounts,SM21-PO.46948-30215-Abdul Hamid Abdul Ra-17847.pdf,,7/2/2025
 14-May-25,123,33785,1900,Abdul Hamid Abdul Ra,Inv-12758,1900,20250514 PO.33785 Site.123 ID.30215 Sn.17848.pdf,03-Jun-25,With Accounts,S123-PO.33785-30215-Abdul Hamid Abdul Ra-17848.pdf,,7/2/2025
 14-May-25,123,33898,1900,Abdul Hamid Abdul Ra,Inv-12845,1900,20250514 PO.33898 Site.123 ID.30215 Sn.17849.pdf,03-Jun-25,With Accounts,S123-PO.33898-30215-Abdul Hamid Abdul Ra-17849.pdf,,7/2/2025
-13-May-25,173,57895,1165,Cash,57895.173,1165,,03-Jun-25,Closed,S173-PO.57895-Nosher-Cash-17850.pdf,Cash-21-May-25,7/2/2025
 13-May-25,166,57884,731,Cash,57884.166,731,,03-Jun-25,With Accounts,S166-PO.57884-Nosher-Cash-17851.pdf,Cash-21-May-25,7/2/2025
 15-May-25,173,53562.3,59000000,Mechatronics,53562.IPC02,354119.71,20250524 PO.53562 Site.173 ID.30123 Sn.17853.pdf,03-Jun-25,With Accounts,S173-PO.53562-30123-Mechatronics-17853.pdf,,7/2/2025
 15-May-25,168,48305.7,594519,Frangieh & Associate,48305.IPC/06,45072.03,20250524 PO.48305 Site.168 ID.30487 Sn.17855.pdf,03-Jun-25,With Accounts,S168-PO.48305-30487-Frangieh & Associate-17855.pdf,,7/2/2025
@@ -3276,10 +3275,10 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 03-Jun-25,169,57968,316.5,Nay Trading Co. W.L.,,316.5,20250612-11732-Nay Trading Co. W.L..pdf,12-Jun-25,With Accounts,S169-PO.57968-11732-Nay Trading Co. W.L.-18184.pdf,Nay Trading Co. W-11-Jun-25,7/2/2025
 03-Jun-25,175,58216,4356.25,One Touch Trading & ,,4356.25,,02-Jul-25,CEO Approval,S175-PO.58216-11614-One Touch Trading & -18185.pdf,Credit,7/2/2025
 03-Jun-25,175,58281,2384,One Touch Trading & ,,2384,,02-Jul-25,CEO Approval,S175-PO.58281-11614-One Touch Trading & -18186.pdf,Credit,7/2/2025
-03-Jun-25,175,57809.2,6715.75,One Touch Trading & ,,3481.75,,04-Jun-25,FOR SRV,S175-PO.57809-11614-One Touch Trading & -18187.pdf,,7/2/2025
+03-Jun-25,175,57809.2,6715.75,One Touch Trading & ,,3481.75,,04-Jun-25,For SRV,S175-PO.57809-11614-One Touch Trading & -18187.pdf,,7/2/2025
 03-Jun-25,175,58298,90000,Lausanne Security & ,,45000,20250611 PO.58298 Site.175 ID.30377 Sn.18188.pdf,11-Jun-25,With Accounts,S175-PO.58298-30377-Lausanne Security & -18188.pdf,,7/2/2025
 03-Jun-25,175,57505,86004,Qatar Internatiol El,INV-EART/4101/LV/25,40583,20250617 PO.57505 Site.175 ID.10217 Sn.18189.pdf,17-Jun-25,With Accounts,S175-PO.57505-10217-Qatar Internatiol El-18189.pdf,,7/2/2025
-03-Jun-25,175,58285,1750,Qatar International ,,1750,,04-Jun-25,FOR SRV,S175-PO.58285-11456-Qatar International -18190.pdf,,7/2/2025
+03-Jun-25,175,58285,1750,Qatar International ,,1750,,04-Jun-25,For SRV,S175-PO.58285-11456-Qatar International -18190.pdf,,7/2/2025
 03-Jun-25,M30,58441,14100,Traffic Management S,,7050,,04-Jun-25,Pending,SM30-PO.58441-30574-Traffic Management S-18191.pdf,,7/2/2025
 03-Jun-25,166,49643.6,3400000.24,Ismail Bin Ali Furni,,0,20250626 PO.49643 Site.166 ID.30172 Sn.18192.pdf,01-Jun-24,With Accounts,S166-PO.49643-30172-Ismail Bin Ali Furni-18192.pdf,,7/2/2025
 03-Jun-25,166,48582.5,2900000,Ismail Bin Ali Furni,,0,20250626 PO.48582 Site.166 ID.30172 Sn.18193.pdf,31-Jan-24,With Accounts,S166-PO.48582-30172-Ismail Bin Ali Furni-18193.pdf,,7/2/2025
@@ -3291,9 +3290,9 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 03-Jun-25,173,58173,22500,Sika Qatar LLC,26IN115985,22500,20250617 PO.58173 Site.173 ID.11637 Sn.18199.pdf,17-Jun-25,With Accounts,S173-PO.58173-11637-Sika Qatar LLC-18199.pdf,,7/2/2025
 01-Jul-25,166,57692,4500,Star City Pest Contr,,13500,,02-Jul-25,Under Review,S166-PO.57692-30528-Star City Pest Contr-18200.pdf,COO Approval,7/2/2025
 03-Jun-25,M28,57525.2,14400,Laffan Trading and C,,2128,,04-Jun-25,Under Review,SM28-PO.57525-11455-Laffan Trading and C-18201.pdf,,7/2/2025
-03-Jun-25,169,57280.3,9600,ALNAHA FOR TRADING &,,1000,,04-Jun-25,FOR SRV,S169-PO.57280-10240-ALNAHA FOR TRADING &-18202.pdf,,7/2/2025
+03-Jun-25,169,57280.3,9600,ALNAHA FOR TRADING &,,1000,,04-Jun-25,For SRV,S169-PO.57280-10240-ALNAHA FOR TRADING &-18202.pdf,,7/2/2025
 03-Jun-25,173,57281.3,71250,ALNAHA FOR TRADING &,,7250,,10-Jun-25,Under Review,S173-PO.57281-10240-ALNAHA FOR TRADING &-18203.pdf,,7/2/2025
-03-Jun-25,176,57282.3,16750,ALNAHA FOR TRADING &,,1750,,04-Jun-25,FOR SRV,S176-PO.57282-10240-ALNAHA FOR TRADING &-18204.pdf,,7/2/2025
+03-Jun-25,176,57282.3,16750,ALNAHA FOR TRADING &,,1750,,04-Jun-25,For SRV,S176-PO.57282-10240-ALNAHA FOR TRADING &-18204.pdf,,7/2/2025
 03-Jun-25,176,58217,3875,Don Construction Pro,FACCR-25002749,2480,20250614-10245-Don Construction Pro.pdf,14-Jun-25,With Accounts,S176-PO.58217-10245-Don Construction Pro-18205.pdf,Don Construction -12-Jun-25,7/2/2025
 03-Jun-25,176,58115,5000,Don Construction Pro,FACCR-25002600,5000,20250614-10245-Don Construction Pro.pdf,14-Jun-25,With Accounts,S176-PO.58115-10245-Don Construction Pro-18206.pdf,Don Construction -12-Jun-25,7/2/2025
 03-Jun-25,173,57992,2800,Don Construction Pro,,2800,,02-Jul-25,CEO Approval,S173-PO.57992-10245-Don Construction Pro-18207.pdf,Credit,7/2/2025
@@ -3335,7 +3334,6 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 03-Jun-25,176,56072.5,1123,Ooredoo Q.S.C,Broadband Connection May,280,20250609-11298-Ooredoo Q.S.C-Broadband.pdf,09-Jun-25,With Accounts,S176-PO.56072-11298-Ooredoo Q.S.C-18243.pdf,,7/2/2025
 03-Jun-25,175,56073.5,1920,Vodafone Qatar,Broadband Connection May,480,20250609-11558-Vodafone Qatar-Broadband.pdf,09-Jun-25,With Accounts,S175-PO.56073-11558-Vodafone Qatar-18244.pdf,,7/2/2025
 06-Sep-25,169,58482,350,Cash-Nosher,,350,20250618-PETTY-CASH.pdf,18-Jun-25,With Accounts,S169-PO.58482-19999-Cash-Nosher-18245.pdf,Cash-11-Jun-25,7/2/2025
-,173,58486,1066,Cash,,1066,,01-Jul-25,Closed,S173-PO.58486-19999-Cash-18246.pdf,,7/2/2025
 06-Sep-25,166,58327,90,Cash-Nosher,,90,20250618-PETTY-CASH.pdf,18-Jun-25,With Accounts,S166-PO.58327-19999-Cash-Nosher-18247.pdf,Cash-11-Jun-25,7/2/2025
 06-Sep-25,166,58325,1100,Cash-Nosher,,1100,20250618-PETTY-CASH.pdf,18-Jun-25,With Accounts,S166-PO.58325-19999-Cash-Nosher-18248.pdf,Cash-11-Jun-25,7/2/2025
 06-Sep-25,175,58155,85,Cash-Nosher,,85,20250618-PETTY-CASH.pdf,18-Jun-25,With Accounts,S175-PO.58155-19999-Cash-Nosher-18249.pdf,Cash-11-Jun-25,7/2/2025
@@ -3440,7 +3438,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 12-Jun-25,175,58031,991,Qatar Pipeline & Fit,,833,,02-Jul-25,CEO Approval,S175-PO.58031-11449-Qatar Pipeline & Fit-18349.pdf,Credit,7/2/2025
 12-Jun-25,175,57276,1979.38,Qatar Pipeline & Fit,,1772,,02-Jul-25,CEO Approval,S175-PO.57276-11449-Qatar Pipeline & Fit-18350.pdf,Credit,7/2/2025
 12-Jun-25,176,53779.19,606193,Fahad Bin Abdulla Bl,53779-1,58310,20250702 PO.53779 Site.176 ID.11320 Sn.16086.pdf,02-Jul-25,With Accounts,S176-PO.53779-11320-Fahad Bin Abdulla Bl-18352.pdf,,7/2/2025
-12-Jun-25,175,53063.14,294015,Fahad Bin Abdulla Re,,9065,,15-Jun-25,FOR SRV,S175-PO.53063-11772-Fahad Bin Abdulla Re-18353.pdf,,7/2/2025
+12-Jun-25,175,53063.14,294015,Fahad Bin Abdulla Re,,9065,,15-Jun-25,For SRV,S175-PO.53063-11772-Fahad Bin Abdulla Re-18353.pdf,,7/2/2025
 12-Jun-25,175,58549,6118.75,Leminar Air Conditio,MCCGIBABVAV2025064,6118.75,20250617 PO.58549 Site.175 ID.11828 Sn.18354.pdf,17-Jun-25,With Accounts,S175-PO.58549-11828-Leminar Air Conditio-18354.pdf,,7/2/2025
 12-Jun-25,173,56884.9,90104,Siporex Block Factor,,6493,,29-Jun-25,Under Review,S173-PO.56884-17775-Siporex Block Factor-18355.pdf,,7/2/2025
 12-Jun-25,M28,56948.3,98734,Evergreen Signage an,56948.INv1835230325,49831.89,20250629 PO.56948 Site.M28 ID.30449 Sn.32434.pdf,29-Jun-25,With Accounts,SM28-PO.56948-30449-Evergreen Signage an-18356.pdf,,7/2/2025
