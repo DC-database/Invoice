@@ -2552,7 +2552,7 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 18-Nov-24,161,42340.8,6973831,Ismail Bin Ali Furni,42340-Advance.25,0,20250702 PO.42340 Site.161 ID.30172 Sn.15196.pdf,02-Jul-25,With Accounts,S161-PO.42340-30172-Ismail Bin Ali Furni-17432.pdf,,7/10/2025
 29-Apr-25,166,50143.5,271091.85,Aluminum Gulf Ray,,0,20250517 PO.50143 Site.166 ID.30386 Sn.17433.pdf,23-Apr-24,With Accounts,S166-PO.50143-30386-Aluminum Gulf Ray-17433.pdf,,7/10/2025
 23-Apr-25,166,48862.13,4299710.67,Oryx Marble & Granit,48862-IPC.11,456447.14,20250511 PO.48862 Site.166 ID.11590 Sn.17434.pdf,03-Jun-25,With Accounts,S166-PO.48862-11590-Oryx Marble & Granit-17434.pdf,,7/10/2025
-23-Apr-25,166,54028,57100,Oryx Marble & Granit,,45680,,03-Jun-25,For IPC,S166-PO.54028-11590-Oryx Marble & Granit-17435.pdf,,7/10/2025
+23-Apr-25,166,54028,41700,Oryx Marble & Granit,,41700,,10-Jul-25,Under Review,S166-PO.54028-11590-Oryx Marble & Granit-17435.pdf,COO Approval,7/10/2025
 26-Apr-25,176,54823,790,Computer Plus,Inv-7714,790,20250511-11472-Computer Plus.pdf,03-Jun-25,With Accounts,S176-PO.54823-11472-Computer Plus-17436.pdf,Computer Plus-07-May-25,7/10/2025
 20-Apr-25,100,57432,14500,GoDo Delivery,,14500,20250428 PO.57432 Site.166 ID.11488 Sn.17437.pdf,03-Jun-25,With Accounts,S100-PO.57432-11488-GoDo Delivery-17437.pdf,,7/10/2025
 28-Apr-25,176,56597,905,Computer Mart Tradin,INV CMTQ-1190,905,20250601-11777-Computer Mart Tradin.pdf,03-Jun-25,With Accounts,S176-PO.56597-11777-Computer Mart Tradin-17438.pdf,Computer Mart Tra-29-May-25,7/10/2025
@@ -3796,9 +3796,9 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 03-Jul-25,166,58782,3700,Abdulla Al Emadi Tra,,3700,,07-Jul-25,Under Review,S166-PO.58782-11317-Abdulla Al Emadi Tra-16442.pdf,MEP Approval,7/10/2025
 03-Jul-25,173,58430,22200,Khalifa Steel Indust,,22200,,10-Jul-25,Under Review,S173-PO.58430-10130-Khalifa Steel Indust-16443.pdf,COO Approval,7/10/2025
 03-Jul-25,169,58342,13160,Khalifa Steel Indust,,13160,,05-Jul-25,For SRV,S169-PO.58342-10130-Khalifa Steel Indust-16444.pdf,,7/10/2025
-03-Jul-25,166,49587.3,44809,Target Metal Industr,,4480.9,,05-Jul-25,Report,S166-PO.49587-30347-Target Metal Industr-16445.pdf,,7/10/2025
-03-Jul-25,166,48824.4,70000,Target Metal Industr,,3500,,05-Jul-25,Report,S166-PO.48824-30347-Target Metal Industr-16446.pdf,,7/10/2025
-03-Jul-25,166,51165.3,25000,Target Metal Industr,,1250,,05-Jul-25,Report,S166-PO.51165-30347-Target Metal Industr-16447.pdf,,7/10/2025
+03-Jul-25,166,49587.3,44809,Target Metal Industr,,0,,10-Jul-25,Under Review,S166-PO.49587-30347-Target Metal Industr-16445.pdf,COO Approval,7/10/2025
+03-Jul-25,166,48824.4,70000,Target Metal Industr,,0,,10-Jul-25,Under Review,S166-PO.48824-30347-Target Metal Industr-16446.pdf,COO Approval,7/10/2025
+03-Jul-25,166,51165.3,25000,Target Metal Industr,,0,,10-Jul-25,Under Review,S166-PO.51165-30347-Target Metal Industr-16447.pdf,COO Approval,7/10/2025
 03-Jul-25,175,58879,1400,Lamha Trading Co.,,1400,,08-Jul-25,CEO Approval,S175-PO.58879-11600-Lamha Trading Co.-16448.pdf,Credit,7/10/2025
 03-Jul-25,175,58722,867.5,Lamha Trading Co.,,867.5,,08-Jul-25,CEO Approval,S175-PO.58722-11600-Lamha Trading Co.-16449.pdf,Credit,7/10/2025
 03-Jul-25,169,58636,1484.5,Lamha Trading Co.,,1484.5,,08-Jul-25,CEO Approval,S169-PO.58636-11600-Lamha Trading Co.-16450.pdf,Credit,7/10/2025
@@ -3807,27 +3807,27 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 03-Jul-25,176,57460.2,5840,Qatar International ,,2690,,07-Jul-25,Report,S176-PO.57460-30541-Qatar International -16453.pdf,Jul-07-25-Qatar Internation-30541,7/10/2025
 03-Jul-25,M163,58256,125582,ART GROUP,58256.INV01,125582,20250708 PO.58256 Site.M163 ID.31025 Sn.16454.pdf,08-Jul-25,With Accounts,SM163-PO.58256-31025-ART GROUP-16454.pdf,,7/10/2025
 05-Jul-25,175,58831,8114.9,Cash,,8114.9,,06-Jul-25,Under Review,S175-PO.58831-19999-Cash-16455.pdf,COO Approval,7/10/2025
-05-Jul-25,167,40931.4,472763.18,Al Amaan Interior De,,47276,,05-Jul-25,Report,S167-PO.40931-30345-Al Amaan Interior De-16456.pdf,,7/10/2025
-05-Jul-25,161,45210.3,73518.25,Al Amaan Interior De,,3675.91,,05-Jul-25,Report,S161-PO.45210-30345-Al Amaan Interior De-16457.pdf,,7/10/2025
-05-Jul-25,161,37622.4,238311.62,Al Amaan Interior De,,11915.58,,05-Jul-25,Report,S161-PO.37622-30345-Al Amaan Interior De-16458.pdf,,7/10/2025
-05-Jul-25,161,47747.2,29011.78,Al Amaan Interior De,,2901,,05-Jul-25,Report,S161-PO.47747-30345-Al Amaan Interior De-16460.pdf,,7/10/2025
+05-Jul-25,167,40931.4,472763.18,Al Amaan Interior De,,0,,10-Jul-25,Under Review,S167-PO.40931-30345-Al Amaan Interior De-16456.pdf,COO Approval,7/10/2025
+05-Jul-25,161,45210.3,73518.25,Al Amaan Interior De,,0,,10-Jul-25,Under Review,S161-PO.45210-30345-Al Amaan Interior De-16457.pdf,COO Approval,7/10/2025
+05-Jul-25,161,37622.4,238311.62,Al Amaan Interior De,,0,,10-Jul-25,Under Review,S161-PO.37622-30345-Al Amaan Interior De-16458.pdf,COO Approval,7/10/2025
+05-Jul-25,161,47747.2,29011.78,Al Amaan Interior De,,0,,10-Jul-25,Under Review,S161-PO.47747-30345-Al Amaan Interior De-16460.pdf,COO Approval,7/10/2025
 05-Jul-25,140,58865,58000,Solutions for Contro,SCA25131PIINV25026,29000,20250708 PO.58865 Site.140 ID.30316 Sn.16461.pdf,08-Jul-25,With Accounts,S140-PO.58865-30316-Solutions for Contro-16461.pdf,,7/10/2025
 05-Jul-25,142,58874,58000,Solutions for Contro,SCA25132PIINV25027,29000,20250708 PO.58874 Site.142 ID.30316 Sn.16462.pdf,08-Jul-25,With Accounts,S142-PO.58874-30316-Solutions for Contro-16462.pdf,,7/10/2025
 05-Jul-25,137.17,58146,6500,Solutions for Contro,SCA2025119INV2025153,6500,20250708 PO.58146 Site.137.17 ID.30316 Sn.16463.pdf,08-Jul-25,With Accounts,S137.17-PO.58146-30316-Solutions for Contro-16463.pdf,,7/10/2025
 05-Jul-25,173,58911,4340,AL-SHARK SANITARY WA,,4340,,05-Jul-25,For SRV,S173-PO.58911-11789-AL-SHARK SANITARY WA-16464.pdf,,7/10/2025
-05-Jul-25,169,52624.5,265000,Al Hazem Stainless S,,26500,,05-Jul-25,Report,S169-PO.52624-30173-Al Hazem Stainless S-16465.pdf,,7/10/2025
+05-Jul-25,169,52624.5,265000,Al Hazem Stainless S,,0,,10-Jul-25,Under Review,S169-PO.52624-30173-Al Hazem Stainless S-16465.pdf,COO Approval,7/10/2025
 ,176,55465.3,419359.5,AL-AWALIA,Advance,50000,,06-Jul-25,Under Review,,,7/10/2025
 ,176,56924.2,,Goodwin Qatar W.L.L,Advance,15191,,06-Jul-25,Under Review,,,7/10/2025
 ,100,55890.6,,IBA Real Estate,Rent June,28800,,06-Jul-25,With Accounts,,,7/10/2025
 07-Jul-25,173,58715,1240,United Cooperation G,58714.173.inv5521,1240,20250708-39123-United Cooperation G.pdf,08-Jul-25,With Accounts,,Jul-07-25-United Cooperatio-39123,7/10/2025
 07-Jul-25,166,58867,1240,United Cooperation G,58867.173.inv55356,1240,20250708-39123-United Cooperation G.pdf,08-Jul-25,With Accounts,,Jul-07-25-United Cooperatio-39123,7/10/2025
-07-Jul-25,166,41176.6,199656,Target Metal Industr,,19796.4,,08-Jul-25,Report,S166-PO.41176-30347-Target Metal Industr-16471.pdf,,7/10/2025
-07-Jul-25,166,41176.7,199656,Target Metal Industr,,9898.2,,08-Jul-25,Report,S166-PO.41176-30347-Target Metal Industr-16472.pdf,,7/10/2025
+07-Jul-25,166,41176.6,199656,Target Metal Industr,,0,,10-Jul-25,Under Review,S166-PO.41176-30347-Target Metal Industr-16471.pdf,COO Approval,7/10/2025
+07-Jul-25,166,41176.7,199656,Target Metal Industr,,0,,10-Jul-25,Under Review,S166-PO.41176-30347-Target Metal Industr-16472.pdf,COO Approval,7/10/2025
 07-Jul-25,176,58702,,Lilac Landscape,,30180.4,,08-Jul-25,Under Review,S176-PO.58702-31030-Lilac Landscape-16473.pdf,Advance,7/10/2025
 07-Jul-25,175,58566,,One Touch Trading & ,,1540,,08-Jul-25,For SRV,S175-PO.58566-11614-One Touch Trading & -16474.pdf,,7/10/2025
-07-Jul-25,166,43343.5,96172.06,Doha Pools & Landsca,,4808.6,,08-Jul-25,Report,S166-PO.43343-30421-Doha Pools & Landsca-16475.pdf,,7/10/2025
-07-Jul-25,166,52223.4,335373,Doha Pools & Landsca,,16131.85,,08-Jul-25,Report,S166-PO.52223-30421-Doha Pools & Landsca-16476.pdf,,7/10/2025
-07-Jul-25,167,44032.5,147536.39,Doha Pools & Landsca,,7376.82,,08-Jul-25,Report,S167-PO.44032-30421-Doha Pools & Landsca-16477.pdf,,7/10/2025
+07-Jul-25,166,43343.5,96172.06,Doha Pools & Landsca,,0,,10-Jul-25,Under Review,S166-PO.43343-30421-Doha Pools & Landsca-16475.pdf,COO Approval,7/10/2025
+07-Jul-25,166,52223.4,335373,Doha Pools & Landsca,,0,,10-Jul-25,Under Review,S166-PO.52223-30421-Doha Pools & Landsca-16476.pdf,COO Approval,7/10/2025
+07-Jul-25,167,44032.5,147536.39,Doha Pools & Landsca,,0,,10-Jul-25,Under Review,S167-PO.44032-30421-Doha Pools & Landsca-16477.pdf,COO Approval,7/10/2025
 07-Jul-25,M28,57248,39000.4,Al-Jaber Steel Co. W,,39000.4,,08-Jul-25,For IPC,SM28-PO.57248-30400-Al-Jaber Steel Co. W-16478.pdf,,7/10/2025
 07-Jul-25,173,58979,,Khalifa Steel Indust,,6640,,08-Jul-25,For SRV,S173-PO.58979-10130-Khalifa Steel Indust-16479.pdf,,7/10/2025
 07-Jul-25,176,54292.6,387569.96,Khalifa Steel Indust,,27130.59,,08-Jul-25,For SRV,S176-PO.54292-10130-Khalifa Steel Indust-16480.pdf,,7/10/2025
@@ -3847,17 +3847,17 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 07-Jul-25,175,58223.3,18310,Fahad Bin Abdulla Bl,,2808,,08-Jul-25,For SRV,S175-PO.58223-11320-Fahad Bin Abdulla Bl-16494.pdf,,7/10/2025
 07-Jul-25,175,58223.4,18310,Fahad Bin Abdulla Bl,,5432,,08-Jul-25,For SRV,S175-PO.58223-11320-Fahad Bin Abdulla Bl-16495.pdf,,7/10/2025
 07-Jul-25,176,53779.21,606193,Fahad Bin Abdulla Bl,,36504,,08-Jul-25,For SRV,S176-PO.53779-11320-Fahad Bin Abdulla Bl-16496.pdf,,7/10/2025
-07-Jul-25,166,49509.5,1600000,Informatica Qatar,,80000,,08-Jul-25,Report,S166-PO.49509-30368-Informatica Qatar-16497.pdf,,7/10/2025
-07-Jul-25,166,42328.15,11121354,Informatica Qatar,,561567.7,,08-Jul-25,Report,S166-PO.42328-30368-Informatica Qatar-16498.pdf,,7/10/2025
+07-Jul-25,166,49509.5,1600000,Informatica Qatar,,0,,10-Jul-25,Under Review,S166-PO.49509-30368-Informatica Qatar-16497.pdf,COO Approval,7/10/2025
+07-Jul-25,166,42328.15,11231354,Informatica Qatar,,0,,10-Jul-25,Under Review,S166-PO.42328-30368-Informatica Qatar-16498.pdf,COO Approval,7/10/2025
 07-Jul-25,169,58850,,Diamond Professional,,670,,08-Jul-25,For SRV,S169-PO.58850-11619-Diamond Professional-16499.pdf,,7/10/2025
 07-Jul-25,169,58790,,Profile Corporation,,8775,,08-Jul-25,Under Review,S169-PO.58790-11599-Profile Corporation-16500.pdf,Advance,7/10/2025
-07-Jul-25,173,55397.6,7875000,Al Zaha Trading and ,,233746.35,,08-Jul-25,Report,S173-PO.55397-31004-Al Zaha Trading and -16501.pdf,,7/10/2025
+07-Jul-25,173,55397.6,7875000,Al Zaha Trading and ,,246449.96,,10-Jul-25,Under Review,S173-PO.55397-31004-Al Zaha Trading and -16501.pdf,COO Approval,7/10/2025
 07-Jul-25,176,53872.7,24500,AL LIRA ALZAHABIA TR,,6750,,08-Jul-25,For SRV,S176-PO.53872-30533-AL LIRA ALZAHABIA TR-16502.pdf,,7/10/2025
 07-Jul-25,169,55714.3,94302,Qatar Paving Stones,,44400.96,,08-Jul-25,For SRV,S169-PO.55714-11230-Qatar Paving Stones-16503.pdf,,7/10/2025
 07-Jul-25,M28,56513,60000.02,IBA Aluminium,,60000,,08-Jul-25,Under Review,SM28-PO.56513-30171-IBA Aluminium-16504.pdf,COO Approval,7/10/2025
 07-Jul-25,175,56475,35200,Aqua Proof Trading &,,28325.12,,08-Jul-25,Report,S175-PO.56475-30318-Aqua Proof Trading &-16505.pdf,,7/10/2025
-07-Jul-25,169,55004.3,360000,Al Hazem Stainless S,,87930.91,,08-Jul-25,Report,S169-PO.55004-30173-Al Hazem Stainless S-16506.pdf,,7/10/2025
-07-Jul-25,166,58412,,ALGHROUP CLEANING,,26500,,08-Jul-25,Report,S166-PO.58412-30565-ALGHROUP CLEANING-16507.pdf,,7/10/2025
+07-Jul-25,169,55004.3,360000,Al Hazem Stainless S,,141100.48,,10-Jul-25,Under Review,S169-PO.55004-30173-Al Hazem Stainless S-16506.pdf,COO Approval,7/10/2025
+07-Jul-25,166,58412,26500,ALGHROUP CLEANING,,26500,,10-Jul-25,Under Review,S166-PO.58412-30565-ALGHROUP CLEANING-16507.pdf,COO Approval,7/10/2025
 07-Jul-25,176,58991,,Electra,,7713.5,,08-Jul-25,Under Review,S176-PO.58991-30504-Electra-16509.pdf,Advance,7/10/2025
 08-Jul-25,169,58374,1200,Al Attiya Motors and,58374.169IN1446-0123,1200,20250708-17765-Al Attiya Motors and.pdf,08-Jul-25,With Accounts,S169-PO.58374-17765-Al Attiya Motors and-16510.pdf,Jul-08-25-Al Attiya Motors -17765,7/10/2025
 08-Jul-25,175,58372,555.24,Al Attiya Motors and,58372.175.INV.1213,555.24,20250708-17765-Al Attiya Motors and.pdf,08-Jul-25,With Accounts,S175-PO.58372-17765-Al Attiya Motors and-16511.pdf,Jul-08-25-Al Attiya Motors -17765,7/10/2025
@@ -3949,3 +3949,13 @@ Entered Date,Site,PO Number,PO Value,Vendor,Invoice Number,Value,Details,Release
 05-Jul-25,176,58716,200,Cash Nosher,,200,,10-Jul-25,Report,S176-PO.58716-19999-Cash Nosher-16669.pdf,Jul-10-25-Cash Nosher-19999,7/10/2025
 05-Jul-25,100,58988,11,Cash Nosher,,11,,10-Jul-25,Report,S100-PO.58988-19999-Cash Nosher-16670.pdf,Jul-10-25-Cash Nosher-19999,7/10/2025
 05-Jul-25,173,58998,162,Cash Nosher,,260,,10-Jul-25,Report,S173-PO.58998-19999-Cash Nosher-16671.pdf,Jul-10-25-Cash Nosher-19999,7/10/2025
+10-Jul-25,173,57806,58470.16,Siporex Block Factor,,8387,,10-Jul-25,For SRV,S173-PO.57806-17775-Siporex Block Factor-16672.pdf,,7/10/2025
+10-Jul-25,173,57806.2,58470.16,Siporex Block Factor,,17575,,10-Jul-25,For SRV,S173-PO.57806-17775-Siporex Block Factor-16673.pdf,,7/10/2025
+10-Jul-25,173,57806.3,58470.16,Siporex Block Factor,,18479,,10-Jul-25,For SRV,S173-PO.57806-17775-Siporex Block Factor-16674.pdf,,7/10/2025
+10-Jul-25,173,57806.4,58470.16,Siporex Block Factor,,8195,,10-Jul-25,For SRV,S173-PO.57806-17775-Siporex Block Factor-16675.pdf,,7/10/2025
+10-Jul-25,173,56884.10,93204.2,Siporex Block Factor,,5378,,10-Jul-25,For SRV,S173-PO.56884-17775-Siporex Block Factor-16676.pdf,,7/10/2025
+10-Jul-25,166,57422,5500,Emerald Qatar Tradin,,11000,,10-Jul-25,Under Review,S166-PO.57422-30239-Emerald Qatar Tradin-16677.pdf,COO Approval,7/10/2025
+10-Jul-25,166,43858.5,162000,Almoayyed Air Condit,,16200,,10-Jul-25,Report,S166-PO.43858-11539-Almoayyed Air Condit-16678.pdf,,7/10/2025
+10-Jul-25,175,58978,105,Capital Trading Est.,,105,,10-Jul-25,For SRV,S175-PO.58978-10196-Capital Trading Est.-16679.pdf,,7/10/2025
+10-Jul-25,M30,59053,32000,Evergreen Signage an,,16000,,10-Jul-25,Under Review,SM30-PO.59053-30449-Evergreen Signage an-16680.pdf,Advance,7/10/2025
+10-Jul-25,173,52851.8,1691000,CCL Qatar W.L.L,,139832.59,,10-Jul-25,Report,S173-PO.52851-30992-CCL Qatar W.L.L-16681.pdf,,7/10/2025
